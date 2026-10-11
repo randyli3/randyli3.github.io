@@ -1,4 +1,4 @@
-<img src="images/selfie.jpg" alt="Randy Li" style="float: right; width: 240px; max-width: 40%; height: auto; margin: 0 0 16px 24px; border: 1px solid #d0d7de; border-radius: 8px;" />
+<img src="images/selfie.jpg" alt="Randy Li" style="float: right; width: 300px; max-width: 45%; height: auto; margin: 0 0 16px 24px; border: 1px solid #d0d7de; border-radius: 8px;" />
 
 # Randy Li | Mechanical Engineer
 [LinkedIn](https://www.linkedin.com/in/randy-li-96a6a43ba/)

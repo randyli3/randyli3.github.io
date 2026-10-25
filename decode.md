@@ -5,8 +5,7 @@
 <video style="width: 100%; height: auto; aspect-ratio: 1080 / 1920; display: block;" autoplay muted loop playsinline controls preload="metadata">
 <source src="images/IMG_3791.mp4" type="video/mp4">
 </video>
-<p style="margin: 0; padding: 6px 10px; font-style: italic;">Robot full self ascension driven by servos and MGN rails and my proudest part</p>
-</div>
+<p style="margin: 0; padding: 6px 10px; font-style: italic;">Robot self ascension driven by servo motors
 <div class="card" style="flex: 1.7778 1 0; min-width: 0;">
 <video style="width: 100%; height: auto; aspect-ratio: 1920 / 1080; display: block;" autoplay muted loop playsinline controls preload="metadata">
 <source src="images/IMG_3830.mp4" type="video/mp4">

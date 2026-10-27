@@ -22,10 +22,10 @@ Real Life Images
 
 <div style="display: flex; gap: 8px; margin-bottom: 8px;">
 <div class="card" style="flex: 1.3333 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
-<img src="https://github.com/user-attachments/assets/4bf0ce09-a589-4c51-a1af-9362ae98c4ab" alt="Detailed Assem (1)" style="width: 100%; height: auto; display: block;" />
+<img src="images/3dprinter_photo1.webp" alt="Assembled 3D printer, front view" style="width: 100%; height: auto; display: block;" />
 </div>
-<div class="card" style="flex: 0.8882 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
-<img src="https://github.com/user-attachments/assets/7c5eb3cb-1e99-4e3e-a19d-644645df81b7" alt="Detailed Assem (1)" style="width: 100%; height: auto; display: block;" />
+<div class="card" style="flex: 1.3333 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
+<img src="images/3dprinter_photo2.webp" alt="Assembled 3D printer, side view" style="width: 100%; height: auto; display: block;" />
 </div>
 </div>
 <div style="display: flex; gap: 8px; margin-bottom: 8px; max-width: 50%;">

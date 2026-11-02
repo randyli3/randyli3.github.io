@@ -53,7 +53,7 @@ Mechanical engineering at UW-Madison, passionate about all things robotics, raci
 <a href="racing.html" class="proj-thumb"><img src="images/cad/racing.png" alt="UW Madison Racing CAD" style="width: 100%; height: 100%; display: block;" /></a>
 <div>
 <h3 id="uw-madison-racing">UW Madison Racing</h3>
-<p>New member, working on a parking brake redesign, optimization of brake system and various other parts</p>
+<p>Brakes engineer, working on a parking brake redesign, optimization of brake system and various other parts</p>
 <a href="racing.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
 </div>
 </div>

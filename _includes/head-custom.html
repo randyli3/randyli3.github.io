@@ -21,8 +21,8 @@
   html[data-theme="dark"] .markdown-body a[style*="border"] { border-color: #3d444d !important; }
   html[data-theme="dark"] .card { background: #161b22; border-color: #30363d; }
   html[data-theme="dark"] .proj-placeholder { border-color: #3d444d; color: #9198a1; }
-  /* CAD renders are mostly black parts, so give them a light tile in dark mode */
-  html[data-theme="dark"] .proj-thumb img { background: #f0f3f6; border-radius: 8px; }
+  /* Primer paints every image white; let transparent CAD renders sit on the dark page */
+  html[data-theme="dark"] .markdown-body img { background-color: transparent; }
   html[data-theme="dark"] img[src$="icons/x-twitter.svg"] { filter: invert(1); }
 
   .theme-toggle {

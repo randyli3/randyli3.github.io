@@ -21,7 +21,7 @@ Mechanical engineering at UW-Madison, passionate about all things robotics, raci
 </div>
 
 <div class="proj">
-<div class="proj-thumb proj-placeholder">CAD image<br>coming soon</div>
+<a href="decode.html" class="proj-thumb"><img src="images/cad/decode.png" alt="FIRST Tech Challenge Robot 2025-2026 CAD" style="width: 100%; height: 100%; display: block;" /></a>
 <div>
 <h3 id="first-tech-challenge-robot-2025-2026">FIRST Tech Challenge Robot 2025-2026</h3>
 <p>Competition robot designed to launch balls into a goal and intake balls off of the ground (lead mechanical engineer)</p>
@@ -57,7 +57,7 @@ Mechanical engineering at UW-Madison, passionate about all things robotics, raci
 </div>
 
 <div class="proj">
-<div class="proj-thumb proj-placeholder">CAD image<br>coming soon</div>
+<a href="itd.html" class="proj-thumb"><img src="images/cad/itd.png" alt="FIRST Tech Challenge Robot 2024-2025 CAD" style="width: 100%; height: 100%; display: block;" /></a>
 <div>
 <h3 id="first-tech-challenge-robot-2024-2025">FIRST Tech Challenge Robot 2024-2025</h3>
 <p>Competition robot designed to pick up blocks and place into baskets and suspend itself</p>

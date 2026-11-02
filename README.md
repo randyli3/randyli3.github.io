@@ -21,14 +21,15 @@ Balancing of a lightweight carbon fiber pendulum on an mgn rail cart driven by a
 
 <a href="pendulum.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
 
+### Wisconsin Humanoids
+Legs engineer, working on a full redesign of the legs, own ankle and shin subsystems
+
+<a href="humanoids.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
+
 ### UW Madison Racing
 New member, working on a parking brake redesign, optimization of brake system and various other parts
 
 <a href="racing.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
-
-### Wisconsin Humanoids
-
-<a href="humanoids.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
 
 ### FIRST Tech Challenge Robot 2024-2025
 Competition robot designed to pick up blocks and place into baskets and suspend itself

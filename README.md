@@ -66,3 +66,12 @@ Mechanical engineering at UW-Madison, passionate about all things robotics, raci
 <a href="itd.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
 </div>
 </div>
+
+<div class="proj">
+<div class="proj-thumb proj-placeholder">CAD image<br>coming soon</div>
+<div>
+<h3 id="microduck-clone">Microduck Clone</h3>
+<p>Work in progress</p>
+<a href="microduck.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
+</div>
+</div>

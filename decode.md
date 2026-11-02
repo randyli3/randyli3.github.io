@@ -20,9 +20,9 @@
 <p style="margin: 0; padding: 6px 10px;">First Major Iteration (December)</p>
 <img src="https://github.com/user-attachments/assets/39b132a9-3a6f-4bf6-abda-b1834153116a" alt="20251219_035844599_iOS" style="width: 100%; height: auto; display: block;" />
 </div>
-<div class="card" style="flex: 1.3335 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
-<p style="margin: 0; padding: 6px 10px;">Prepping for Worlds (Second Major Iteration) (March)</p>
-<img src="https://github.com/user-attachments/assets/17764eb4-ee4e-428f-b774-c2846c19319e" alt="20260418_013440306_iOS" style="width: 100%; height: auto; display: block;" />
+<div class="card" style="flex: 1.0996 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
+<p style="margin: 0; padding: 6px 10px;">Prepping for Regionals (Second Major Iteration) (March)</p>
+<img src="images/decode_regionals.webp" alt="Robot prepped for regionals" style="width: 100%; height: auto; display: block;" />
 </div>
 </div>
 <div style="display: flex; gap: 8px; margin-bottom: 8px; max-width: 50%;">

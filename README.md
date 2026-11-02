@@ -1,5 +1,9 @@
 # Randy Li | Mechanical Engineer
-[LinkedIn](https://www.linkedin.com/in/randy-li-96a6a43ba/)
+<p style="display: flex; flex-direction: column; gap: 6px;">
+<a href="https://www.linkedin.com/in/randy-li-96a6a43ba/" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;"><img src="images/icons/linkedin.svg" alt="" width="18" height="18" style="display: block;" />LinkedIn</a>
+<a href="https://www.instagram.com/randyl.builds/" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;"><img src="images/icons/instagram.svg" alt="" width="18" height="18" style="display: block;" />Instagram</a>
+<a href="https://x.com/Procat3rd" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;"><img src="images/icons/x-twitter.svg" alt="" width="18" height="18" style="display: block;" />X</a>
+</p>
 
 ## About Me
 Mechanical engineering at UW-Madison, passionate about all things robotics, racing and automation.

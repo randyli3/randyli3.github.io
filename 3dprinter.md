@@ -2,7 +2,7 @@
 
 <div class="card" style="max-width: 640px; margin-bottom: 8px;">
 <video style="width: 100%; height: auto; aspect-ratio: 1920 / 1080; display: block;" autoplay muted loop playsinline controls preload="metadata">
-<source src="images/IMG_4229.mp4" type="video/mp4">
+<source src="images/MicrosoftTeams-video.mp4" type="video/mp4">
 </video>
 <p style="margin: 0; padding: 6px 10px; font-style: italic;">Printer in action</p>
 </div>

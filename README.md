@@ -1,8 +1,10 @@
 # Randy Li | Mechanical Engineer
 <p style="display: flex; flex-direction: column; gap: 6px;">
 <a href="https://www.linkedin.com/in/randy-li-96a6a43ba/" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;"><img src="images/icons/linkedin.svg" alt="" width="18" height="18" style="display: block;" />LinkedIn</a>
+<span style="margin-top: 6px;">Posting my projects on social media:</span>
 <a href="https://www.instagram.com/randyl.builds/" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;"><img src="images/icons/instagram.svg" alt="" width="18" height="18" style="display: block;" />Instagram</a>
 <a href="https://x.com/Procat3rd" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;"><img src="images/icons/x-twitter.svg" alt="" width="18" height="18" style="display: block;" />X</a>
+<a href="mailto:li.randyjiang@gmail.com" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; margin-top: 6px;"><img src="images/icons/envelope.svg" alt="" width="18" height="18" style="display: block;" />li.randyjiang@gmail.com</a>
 </p>
 
 ## About Me

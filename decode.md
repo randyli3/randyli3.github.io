@@ -16,13 +16,13 @@
 </div>
 
 <div style="display: flex; gap: 8px; margin-bottom: 8px;">
-<div class="card" style="flex: 1.0996 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
-<p style="margin: 0; padding: 6px 10px;">Prepping for Regionals (Second Major Iteration) (March)</p>
-<img src="images/decode_regionals.webp" alt="Robot prepped for regionals" style="width: 100%; height: auto; display: block;" />
-</div>
 <div class="card" style="flex: 1.248 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
 <p style="margin: 0; padding: 6px 10px;">Final (World Championship! April)</p>
 <img src="https://github.com/user-attachments/assets/349a8b73-5584-4d77-8ad4-aa9851754597" alt="20260510_074602806_iOS" style="width: 100%; height: auto; display: block;" />
+</div>
+<div class="card" style="flex: 1.0996 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
+<p style="margin: 0; padding: 6px 10px;">Prepping for Regionals (Second Major Iteration) (March)</p>
+<img src="images/decode_regionals.webp" alt="Robot prepped for regionals" style="width: 100%; height: auto; display: block;" />
 </div>
 </div>
 <div style="display: flex; gap: 8px; margin-bottom: 8px; width: 33%; min-width: 220px;">

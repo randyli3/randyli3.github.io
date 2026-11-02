@@ -1,0 +1,75 @@
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- Light/dark theme: follows the system setting until the visitor picks one with the toggle -->
+<script>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    var system = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", saved || system);
+  })();
+</script>
+<style>
+  html[data-theme="dark"] { color-scheme: dark; }
+  html[data-theme="dark"] body { background: #0d1117; color: #e6edf3; }
+  html[data-theme="dark"] .markdown-body { color: #e6edf3; }
+  html[data-theme="dark"] .markdown-body a { color: #4493f8; }
+  html[data-theme="dark"] .markdown-body h1,
+  html[data-theme="dark"] .markdown-body h2 { border-bottom-color: #30363d; }
+  html[data-theme="dark"] .markdown-body hr { background-color: #30363d; }
+  html[data-theme="dark"] .markdown-body a[style*="border"] { border-color: #3d444d !important; }
+  html[data-theme="dark"] .card { background: #161b22; border-color: #30363d; }
+  html[data-theme="dark"] .proj-placeholder { border-color: #3d444d; color: #9198a1; }
+  /* CAD renders are mostly black parts, so give them a light tile in dark mode */
+  html[data-theme="dark"] .proj-thumb img { background: #f0f3f6; border-radius: 8px; }
+  html[data-theme="dark"] img[src$="icons/x-twitter.svg"] { filter: invert(1); }
+
+  .theme-toggle {
+    position: fixed; right: 16px; bottom: 16px; z-index: 100;
+    display: flex; align-items: center; gap: 6px;
+    padding: 4px; border: 1px solid #d0d7de; border-radius: 999px;
+    background: #fff; cursor: pointer; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+  .theme-toggle span {
+    width: 28px; height: 28px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; line-height: 1; transition: background 0.2s;
+  }
+  .theme-toggle .sun { background: #ffe8a3; }
+  html[data-theme="dark"] .theme-toggle { background: #161b22; border-color: #3d444d; }
+  html[data-theme="dark"] .theme-toggle .sun { background: none; }
+  html[data-theme="dark"] .theme-toggle .moon { background: #30363d; }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var root = document.documentElement;
+    var media = window.matchMedia("(prefers-color-scheme: dark)");
+    var button = document.createElement("button");
+    button.className = "theme-toggle";
+    button.type = "button";
+    button.innerHTML = '<span class="sun" aria-hidden="true">&#9728;&#65038;</span><span class="moon" aria-hidden="true">&#9790;</span>';
+    function label() {
+      var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      button.setAttribute("aria-label", "Switch to " + next + " mode");
+      button.title = "Switch to " + next + " mode";
+    }
+    button.addEventListener("click", function () {
+      var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      // Picking the system's own theme goes back to following the system
+      try {
+        if (next === (media.matches ? "dark" : "light")) localStorage.removeItem("theme");
+        else localStorage.setItem("theme", next);
+      } catch (e) {}
+      label();
+    });
+    media.addEventListener("change", function (e) {
+      var saved = null;
+      try { saved = localStorage.getItem("theme"); } catch (e2) {}
+      if (!saved) { root.setAttribute("data-theme", e.matches ? "dark" : "light"); label(); }
+    });
+    label();
+    document.body.appendChild(button);
+  });
+</script>

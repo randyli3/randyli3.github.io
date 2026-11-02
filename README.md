@@ -30,7 +30,7 @@ Mechanical engineering at UW-Madison, passionate about all things robotics, raci
 </div>
 
 <div class="proj">
-<a href="pendulum.html" class="proj-thumb"><img src="images/cad/pendulum.png" alt="Inverted Pendulum Cart CAD" style="width: 100%; height: 100%; display: block;" /></a>
+<a href="pendulum.html" class="proj-thumb"><img src="images/cad/pendulum_cart.png" alt="Inverted Pendulum Cart CAD" style="width: 100%; height: 100%; display: block;" /></a>
 <div>
 <h3 id="inverted-pendulum-cart">Inverted Pendulum Cart</h3>
 <p>Balancing of a lightweight carbon fiber pendulum on an mgn rail cart driven by a brushless motor</p>

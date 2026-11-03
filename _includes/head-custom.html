@@ -25,6 +25,14 @@
   html[data-theme="dark"] .markdown-body img { background-color: transparent; }
   html[data-theme="dark"] img[src$="icons/x-twitter.svg"] { filter: invert(1); }
 
+  /* Back button on project pages stays pinned to the bottom-left corner */
+  .back-home {
+    position: fixed; left: 16px; bottom: 16px; z-index: 100;
+    background: #fff; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+  body:has(.back-home) { padding-bottom: 64px; }
+  html[data-theme="dark"] .back-home { background: #161b22; }
+
   .theme-toggle {
     position: fixed; right: 16px; bottom: 16px; z-index: 100;
     display: flex; align-items: center; gap: 6px;

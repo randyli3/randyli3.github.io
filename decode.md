@@ -35,4 +35,8 @@
 </div>
 </div>
 
-<p style="margin-top: 32px;"><a href="/" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">&larr; Back to main page</a></p>
+<hr>
+
+<h2 id="design-process">Design Process</h2>
+
+<a href="/" class="back-home" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">&larr; Back to main page</a>

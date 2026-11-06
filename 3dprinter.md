@@ -54,4 +54,14 @@ Real Life Images
 </div>
 <p style="margin: 0 0 16px; font-style: italic;">Left: low pressure output. Second: original design, high backpressure causing airflow to spill out the back, also tested in real life. Third: optimized design with increased pressure, smoothed out corners and reduced rapid geometry changes. Right: duct CAD.</p>
 
+<div class="stack-mobile" style="display: flex; gap: 8px; margin-bottom: 8px;">
+<div class="card" style="flex: 0.75 1 0; min-width: 0;">
+<img src="images/3dprinter_toolhead_open_source.jpg" alt="Open source toolhead" style="width: 100%; height: auto; display: block;" />
+</div>
+<div class="card" style="flex: 1.3333 1 0; min-width: 0;">
+<img src="images/3dprinter_toolhead_custom.jpg" alt="Custom toolhead" style="width: 100%; height: auto; display: block;" />
+</div>
+</div>
+<p style="margin: 0 0 16px; font-style: italic;">Left: open source toolhead design. Right: custom design, lighter, faster feeding reaction speed, more cooling output, smaller footprint.</p>
+
 <a href="/" class="back-home" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">&larr; Back to main page</a>

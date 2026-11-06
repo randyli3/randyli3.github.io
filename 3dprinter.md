@@ -47,7 +47,7 @@ Real Life Images
 <img src="images/3dprinter_duct_cad.webp" alt="Part cooling duct CAD" style="width: 100%; height: auto; display: block;" />
 </div>
 </div>
-<p style="margin: 0 0 16px; font-style: italic;">Left: low pressure output. Second: original design, high backpressure causing airflow to spill out the back, also tested in real life. Third: optimized design with increased pressure, smoothed out corners and reduced rapid geometry changes. Right: duct CAD.</p>
+<p style="margin: 0 0 16px; font-style: italic;">First: low pressure output. Second: original design, high backpressure causing airflow to spill out the back, also tested in real life. Third: optimized design with increased pressure, smoothed out corners and reduced rapid geometry changes. Fourth: duct CAD.</p>
 
 <div class="stack-mobile" style="display: flex; gap: 8px; margin-bottom: 8px;">
 <div class="card" style="flex: 0.75 1 0; min-width: 0;">
@@ -57,7 +57,7 @@ Real Life Images
 <img src="images/3dprinter_toolhead_custom.jpg" alt="Custom toolhead" style="width: 100%; height: auto; display: block;" />
 </div>
 </div>
-<p style="margin: 0 0 16px; font-style: italic;">Left: open source toolhead design. Right: custom design, lighter, faster feeding reaction speed, more cooling output, smaller footprint.</p>
+<p style="margin: 0 0 16px; font-style: italic;">First: open source toolhead design. Second: custom design, lighter, faster feeding reaction speed, more cooling output, smaller footprint.</p>
 
 <div class="stack-mobile" style="display: flex; gap: 8px; margin-bottom: 8px;">
 <div class="card" style="flex: 1.2937 1 0; min-width: 0;">

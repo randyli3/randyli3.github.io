@@ -38,4 +38,16 @@ Real Life Images
 
 <h2 id="design-process">Design Process</h2>
 
+<div class="stack-mobile" style="display: flex; gap: 8px; margin-bottom: 8px;">
+<div class="card" style="flex: 1.0433 1 0; min-width: 0;">
+<img src="images/3dprinter_cfd1.webp" alt="Part cooling duct CFD pressure plot 1" style="width: 100%; height: auto; display: block;" />
+</div>
+<div class="card" style="flex: 1.4646 1 0; min-width: 0;">
+<img src="images/3dprinter_cfd2.webp" alt="Part cooling duct CFD pressure plot 2" style="width: 100%; height: auto; display: block;" />
+</div>
+<div class="card" style="flex: 1.3906 1 0; min-width: 0;">
+<img src="images/3dprinter_cfd3.webp" alt="Part cooling duct CFD pressure plot 3" style="width: 100%; height: auto; display: block;" />
+</div>
+</div>
+
 <a href="/" class="back-home" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">&larr; Back to main page</a>

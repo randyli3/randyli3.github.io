@@ -39,4 +39,17 @@
 
 <h2 id="design-process">Design Process</h2>
 
+<div class="stack-mobile" style="display: flex; gap: 8px; margin-bottom: 8px;">
+<div class="card" style="flex: 0.7727 1 0; min-width: 0;">
+<img src="images/decode_lift_cad.webp" alt="Lift assembly on stacked MGN rails" style="width: 100%; height: auto; display: block;" />
+</div>
+<div class="card" style="flex: 1.6022 1 0; min-width: 0;">
+<img src="images/decode_lift_fea_original.png" alt="Original lift design deflection simulation" style="width: 100%; height: auto; display: block;" />
+</div>
+<div class="card" style="flex: 1.5612 1 0; min-width: 0;">
+<img src="images/decode_lift_fea_carbon.png" alt="Carbon fiber lift design deflection simulation" style="width: 100%; height: auto; display: block;" />
+</div>
+</div>
+<p style="margin: 0 0 16px; font-style: italic;">First: lift assembly on stacked MGN rails. Second: original design (pocketed aluminum, significant deflection). Third: carbon fiber and updated design, &lt;0.5 mm deflection under load.</p>
+
 <a href="/" class="back-home" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">&larr; Back to main page</a>

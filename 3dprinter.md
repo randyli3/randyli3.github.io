@@ -28,11 +28,6 @@ Real Life Images
 <img src="images/3dprinter_photo2.webp" alt="Assembled 3D printer, side view" style="width: 100%; height: auto; display: block;" />
 </div>
 </div>
-<div style="display: flex; gap: 8px; margin-bottom: 8px; max-width: 50%;">
-<div class="card" style="flex: 1.3333 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end;">
-<img src="https://github.com/user-attachments/assets/db088d2b-c871-4cb2-97e4-6b7f8a071093" alt="Detailed Assem (1)" style="width: 100%; height: auto; display: block;" />
-</div>
-</div>
 
 <hr>
 

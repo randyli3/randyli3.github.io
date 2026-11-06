@@ -59,4 +59,14 @@ Real Life Images
 </div>
 <p style="margin: 0 0 16px; font-style: italic;">Left: open source toolhead design. Right: custom design, lighter, faster feeding reaction speed, more cooling output, smaller footprint.</p>
 
+<div class="stack-mobile" style="display: flex; gap: 8px; margin-bottom: 8px;">
+<div class="card" style="flex: 1.2937 1 0; min-width: 0;">
+<img src="images/3dprinter_master_sketch.webp" alt="Master sketch" style="width: 100%; height: auto; display: block;" />
+</div>
+<div class="card" style="flex: 1.2937 1 0; min-width: 0;">
+<img src="images/3dprinter_master_sketch_parts.webp" alt="Parts built off the master sketch" style="width: 100%; height: auto; display: block;" />
+</div>
+</div>
+<p style="margin: 0 0 16px; font-style: italic;">Parametric CAD based off master sketch for fast iteration, multi-part part files to create inter-part parametric relations.</p>
+
 <a href="/" class="back-home" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">&larr; Back to main page</a>

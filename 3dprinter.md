@@ -48,6 +48,10 @@ Real Life Images
 <div class="card" style="flex: 1.3906 1 0; min-width: 0;">
 <img src="images/3dprinter_cfd3.webp" alt="Part cooling duct CFD pressure plot 3" style="width: 100%; height: auto; display: block;" />
 </div>
+<div class="card" style="flex: 1.2937 1 0; min-width: 0;">
+<img src="images/3dprinter_duct_cad.webp" alt="Part cooling duct CAD" style="width: 100%; height: auto; display: block;" />
 </div>
+</div>
+<p style="margin: 0 0 16px; font-style: italic;">Left: low pressure output. Second: original design, high backpressure causing airflow to spill out the back, also tested in real life. Third: optimized design with increased pressure, smoothed out corners and reduced rapid geometry changes. Right: duct CAD.</p>
 
 <a href="/" class="back-home" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">&larr; Back to main page</a>

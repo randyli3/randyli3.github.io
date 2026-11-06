@@ -81,6 +81,7 @@
     document.querySelectorAll(".markdown-body div").forEach(function (row) {
       var cards = Array.prototype.filter.call(row.children, function (el) { return el.classList.contains("card"); });
       if (cards.length < 2 || cards.length !== row.children.length) return;
+      if (row.querySelector("video")) return; // video rows keep stacking on phones
       var wrap = document.createElement("div");
       wrap.className = "carousel";
       row.parentNode.insertBefore(wrap, row);

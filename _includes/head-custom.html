@@ -1,0 +1,141 @@
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- Light/dark theme: follows the system setting until the visitor picks one with the toggle -->
+<script>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    var system = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", saved || system);
+  })();
+</script>
+<style>
+  html[data-theme="dark"] { color-scheme: dark; }
+  html[data-theme="dark"] body { background: #0d1117; color: #e6edf3; }
+  html[data-theme="dark"] .markdown-body { color: #e6edf3; }
+  html[data-theme="dark"] .markdown-body a { color: #4493f8; }
+  html[data-theme="dark"] .markdown-body h1,
+  html[data-theme="dark"] .markdown-body h2 { border-bottom-color: #30363d; }
+  html[data-theme="dark"] .markdown-body hr { background-color: #30363d; }
+  html[data-theme="dark"] .markdown-body a[style*="border"] { border-color: #3d444d !important; }
+  html[data-theme="dark"] .card { background: #161b22; border-color: #30363d; }
+  html[data-theme="dark"] .proj-placeholder { border-color: #3d444d; color: #9198a1; }
+  /* Primer paints every image white; let transparent CAD renders sit on the dark page */
+  html[data-theme="dark"] .markdown-body img { background-color: transparent; }
+  html[data-theme="dark"] img[src$="icons/x-twitter.svg"] { filter: invert(1); }
+
+  /* Back button on project pages stays pinned to the bottom-left corner */
+  .back-home {
+    position: fixed; left: 16px; bottom: 16px; z-index: 100;
+    background: #fff; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+  body:has(.back-home) { padding-bottom: 64px; }
+  html[data-theme="dark"] .back-home { background: #161b22; }
+
+  .theme-toggle {
+    position: fixed; right: 16px; bottom: 16px; z-index: 100;
+    display: flex; align-items: center; gap: 6px;
+    padding: 4px; border: 1px solid #d0d7de; border-radius: 999px;
+    background: #fff; cursor: pointer; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+  .theme-toggle span {
+    width: 28px; height: 28px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; line-height: 1; transition: background 0.2s;
+  }
+  .theme-toggle .sun { background: #ffe8a3; }
+  html[data-theme="dark"] .theme-toggle { background: #161b22; border-color: #3d444d; }
+  html[data-theme="dark"] .theme-toggle .sun { background: none; }
+  html[data-theme="dark"] .theme-toggle .moon { background: #30363d; }
+
+  /* Rows of several images become a one-at-a-time carousel on phones */
+  .carousel { position: relative; margin-bottom: 8px; }
+  .carousel-nav { display: none; }
+  @media (max-width: 700px) {
+    .markdown-body .carousel-track {
+      flex-direction: row !important; gap: 0 !important; margin-bottom: 0 !important;
+      max-width: none !important; width: auto !important; min-width: 0 !important;
+      align-items: center; overflow-x: auto; scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .markdown-body .carousel-track::-webkit-scrollbar { display: none; }
+    .markdown-body .carousel-track > .card {
+      flex: 0 0 100% !important; width: 100% !important; scroll-snap-align: center;
+    }
+    .carousel-nav {
+      display: flex; align-items: center; justify-content: center; gap: 16px;
+      margin-top: 6px; font-size: 14px; color: #57606a;
+    }
+    .carousel-nav button {
+      width: 36px; height: 36px; border-radius: 50%; border: 1px solid #d0d7de;
+      background: #fff; color: #1f2328; font-size: 20px; line-height: 1; cursor: pointer;
+    }
+    .carousel-nav button:disabled { opacity: 0.35; cursor: default; }
+    html[data-theme="dark"] .carousel-nav { color: #9198a1; }
+    html[data-theme="dark"] .carousel-nav button { background: #161b22; border-color: #3d444d; color: #e6edf3; }
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".markdown-body div").forEach(function (row) {
+      var cards = Array.prototype.filter.call(row.children, function (el) { return el.classList.contains("card"); });
+      if (cards.length < 2 || cards.length !== row.children.length) return;
+      if (row.querySelector("video")) return; // video rows keep stacking on phones
+      var wrap = document.createElement("div");
+      wrap.className = "carousel";
+      row.parentNode.insertBefore(wrap, row);
+      wrap.appendChild(row);
+      row.classList.add("carousel-track");
+      var nav = document.createElement("div");
+      nav.className = "carousel-nav";
+      nav.innerHTML = '<button type="button" aria-label="Previous image">&lsaquo;</button><span></span><button type="button" aria-label="Next image">&rsaquo;</button>';
+      wrap.appendChild(nav);
+      var prev = nav.children[0], count = nav.children[1], next = nav.children[2];
+      function index() { return Math.round(row.scrollLeft / Math.max(row.clientWidth, 1)); }
+      function update() {
+        var i = index();
+        count.textContent = (i + 1) + " / " + cards.length;
+        prev.disabled = i === 0;
+        next.disabled = i === cards.length - 1;
+      }
+      prev.addEventListener("click", function () { row.scrollBy({ left: -row.clientWidth, behavior: "smooth" }); });
+      next.addEventListener("click", function () { row.scrollBy({ left: row.clientWidth, behavior: "smooth" }); });
+      row.addEventListener("scroll", update, { passive: true });
+      window.addEventListener("resize", update);
+      update();
+    });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var root = document.documentElement;
+    var media = window.matchMedia("(prefers-color-scheme: dark)");
+    var button = document.createElement("button");
+    button.className = "theme-toggle";
+    button.type = "button";
+    button.innerHTML = '<span class="sun" aria-hidden="true">&#9728;&#65038;</span><span class="moon" aria-hidden="true">&#9790;</span>';
+    function label() {
+      var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      button.setAttribute("aria-label", "Switch to " + next + " mode");
+      button.title = "Switch to " + next + " mode";
+    }
+    button.addEventListener("click", function () {
+      var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      // Picking the system's own theme goes back to following the system
+      try {
+        if (next === (media.matches ? "dark" : "light")) localStorage.removeItem("theme");
+        else localStorage.setItem("theme", next);
+      } catch (e) {}
+      label();
+    });
+    media.addEventListener("change", function (e) {
+      var saved = null;
+      try { saved = localStorage.getItem("theme"); } catch (e2) {}
+      if (!saved) { root.setAttribute("data-theme", e.matches ? "dark" : "light"); label(); }
+    });
+    label();
+    document.body.appendChild(button);
+  });
+</script>

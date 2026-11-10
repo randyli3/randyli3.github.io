@@ -1,3 +1,6 @@
+---
+title: Custom 3D Printer
+---
 <style>.card { border: 1px solid #d0d7de; border-radius: 8px; overflow: hidden; box-sizing: border-box; background: #fff; } @media (max-width: 700px) { .stack-mobile { flex-direction: column !important; } .stack-mobile > div { flex: none !important; width: 100% !important; } }</style>
 
 <div class="card" style="max-width: 640px; margin-bottom: 8px;">

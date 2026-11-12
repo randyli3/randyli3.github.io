@@ -3,6 +3,25 @@
 
 <!-- Visitor stats: https://randyli.goatcounter.com (skips localhost; visit /#toggle-goatcounter to ignore your own browser) -->
 <script data-goatcounter="https://randyli.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>
+  // Open the site with #ignore-me to stop counting this browser, #count-me to undo.
+  // Sets the same "skipgc" flag GoatCounter's own #toggle-goatcounter uses, but also
+  // works when the page is already open or GoatCounter's script is blocked.
+  (function () {
+    function check() {
+      var h = location.hash, msg = null;
+      try {
+        if (h === "#ignore-me") { localStorage.setItem("skipgc", "t"); msg = "Visitor stats will ignore this browser from now on."; }
+        else if (h === "#count-me") { localStorage.removeItem("skipgc"); msg = "Visitor stats will count this browser again."; }
+      } catch (e) { if (h === "#ignore-me" || h === "#count-me") msg = "Could not save the setting (private browsing or blocked site data)."; }
+      if (!msg) return;
+      history.replaceState(null, "", location.pathname + location.search);
+      setTimeout(function () { alert(msg); }, 0);
+    }
+    check();
+    window.addEventListener("hashchange", check);
+  })();
+</script>
 
 <!-- Light/dark theme: follows the system setting until the visitor picks one with the toggle -->
 <script>

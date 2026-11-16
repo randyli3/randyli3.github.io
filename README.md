@@ -5,7 +5,7 @@
 </p>
 
 ## About Me
-Mechanical engineering at UW-Madison, passionate about all things robotics, racing and automation.
+Mechanical engineering at UW-Madison, passionate about all things robotics, automotive and automation.
 
 ## Projects
 <style>.proj { display: flex; gap: 20px; align-items: center; margin: 24px 0; } .proj-thumb { flex: none; width: 120px; height: 120px; } .proj h3 { margin-top: 0; } .proj-placeholder { box-sizing: border-box; border: 2px dashed #d0d7de; border-radius: 8px; display: flex; align-items: center; justify-content: center; text-align: center; color: #8c959f; font-size: 13px; } .proj-grid { margin: 8px 0 24px; } @media (min-width: 768px) { .proj-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 32px; } .proj-grid .proj { margin: 0; } } @media (max-width: 500px) { .proj { gap: 12px; } .proj-thumb { width: 80px; height: 80px; } }</style>

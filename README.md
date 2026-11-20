@@ -20,6 +20,14 @@ Mechanical engineering at UW-Madison, passionate about all things robotics, auto
 </div>
 </div>
 <div class="proj">
+<a href="humanoids.html" class="proj-thumb"><img src="images/cad/humanoids_legs.png" alt="Wisconsin Humanoids CAD" style="width: 100%; height: 100%; display: block;" /></a>
+<div>
+<h3 id="wisconsin-humanoids">Wisconsin Humanoids</h3>
+<p>Legs engineer, working on a full redesign of the legs, ankle and shin subsystems</p>
+<a href="humanoids.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
+</div>
+</div>
+<div class="proj">
 <a href="decode.html" class="proj-thumb"><img src="images/cad/decode.png" alt="FIRST Tech Challenge Robot 2025-2026 CAD" style="width: 100%; height: 100%; display: block;" /></a>
 <div>
 <h3 id="first-tech-challenge-robot-2025-2026">FIRST Tech Challenge Robot 2025-2026</h3>
@@ -33,14 +41,6 @@ Mechanical engineering at UW-Madison, passionate about all things robotics, auto
 <h3 id="inverted-pendulum-cart">Inverted Pendulum Cart</h3>
 <p>Balancing of a lightweight carbon fiber pendulum on an mgn rail cart driven by a brushless motor</p>
 <a href="pendulum.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
-</div>
-</div>
-<div class="proj">
-<a href="humanoids.html" class="proj-thumb"><img src="images/cad/humanoids.png" alt="Wisconsin Humanoids CAD" style="width: 100%; height: 100%; display: block;" /></a>
-<div>
-<h3 id="wisconsin-humanoids">Wisconsin Humanoids</h3>
-<p>Legs engineer, working on a full redesign of the legs, ankle and shin subsystems</p>
-<a href="humanoids.html" style="display: inline-block; padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">View project &rarr;</a>
 </div>
 </div>
 <div class="proj">
